@@ -1,0 +1,75 @@
+.stocxmain{
+  transition: all 0.5s;
+}
+
+.toggle-switch {
+  width: 100px;
+  position: fixed;
+  top: 110px;
+  left: 10px;
+  z-index: 999;
+}
+
+.togleLabel {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  background-color: #28292c;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.toggleInput {
+  position: absolute;
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.toggleInput:checked ~ .slider {
+  background-color: #d8dbe0;
+}
+
+.slider::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: inset 15px -1px 0px 0px #d8dbe0;
+  background-color: #28292c;
+  transition: 0.3s;
+}
+
+.toggleInput:checked ~ .slider::before {
+  transform: translateX(40px);
+  background-color: #28292c;
+  box-shadow: none;
+}
+
+@media only screen and (max-width: 500px){
+  .toggle-switch {
+    width: 80px;
+    top: 105px;
+    left: 5px;
+  }
+  
+  .togleLabel {
+    height: 40px;
+  }
+
+  .slider::before {
+    top: 5px;
+    left: 5px;
+    width: 30px;
+    height: 30px;
+  }
+}

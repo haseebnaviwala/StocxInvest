@@ -1,0 +1,63 @@
+.mainContainer {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.heading {
+    color: #a0ff00;
+    font-size: 30px;
+    text-align: center;
+}
+
+.sideBorder {
+    border-color: lightgrey;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+.c-stepper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.c-stepper__item {
+    z-index: 1;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-stepper__title {
+    color: #a0ff00;
+    border: 2px solid #a0ff00;
+    border-radius: 500px;
+    width: 50px;
+    height: 50px;
+    padding: 2px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-stepper {
+    --size: 3rem;
+    --spacing: 0.5rem;
+    padding: 0;
+    padding-top: 30px;
+}
+
+.c-stepper__item:not(:last-child):after {
+    width: calc(100% - var(--size) - calc(var(--spacing) * 2));
+    left: calc(50% + calc(var(--size) / 2 + var(--spacing)));
+}

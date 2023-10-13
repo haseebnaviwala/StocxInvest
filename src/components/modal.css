@@ -1,0 +1,11 @@
+.modal_close_btn {
+  background: #a0ff00;
+  color: black;
+  border: none;
+}
+
+.modal_close_btn:hover {
+  background-color: #a0ff00;
+  color: black;
+  opacity: 0.75;
+}

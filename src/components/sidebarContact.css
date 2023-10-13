@@ -1,0 +1,136 @@
+.sidebar-form{
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	top: 55%;
+	right: -300px;
+	transform: translateY(-50%);
+	transition: right .4s linear;
+    z-index: 900;
+    opacity: 0;
+	transition: all 0.5s;
+}
+
+.sidebar-form.show{
+	right: 0;
+}
+
+.sidebar-form .call-action{
+	position: absolute;
+	background-color: #a0ff00;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: black;
+	width: 350px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	box-shadow: 0 0 5px rgba(0,0,0,.3);
+	cursor: pointer;
+	transform: translateX(-180px) rotate(-90deg);
+}
+
+.call-action span{
+	font-size: 25px;
+}
+
+.form{
+	box-shadow: 0 0 5px rgba(0,0,0,.3);
+	background-color: black;
+	padding: 20px;
+	width: 300px;
+	height: 350px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: column;
+}
+
+.form h3{
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 20px;
+	letter-spacing: 2px;
+	margin-bottom: 15px;
+	text-align: center;
+	color: white;
+}
+
+.form form{
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+    gap: 10px;
+}
+
+.form input{
+	font-weight: 500;
+	font-size: 15px;
+	padding: 5px;
+	color: black;
+	margin-bottom: 12px;
+	width: 90%;
+	background: #a0ff00;
+	border: none;
+}
+
+.form input:focus{
+	background: white;
+	outline: none;
+}
+
+.form p{
+	background: #a0ff00;
+	width: 50%;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 600;
+	color: black;
+	padding: 10px;
+	margin: 0;
+	border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px){
+	.sidebar-form{
+		right: -260px;
+	}
+
+	.sidebar-form .call-action{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 280px;
+		height: 40px;
+		transform: translateX(-150px) rotate(-90deg);
+	}
+
+	.call-action span{
+		font-size: 20px;
+	}
+
+	.form{
+		padding: 20px;
+		width: 260px;
+		height: 280px;
+	}
+
+	.form h3{
+		font-size: 15px;
+		letter-spacing: 1px;
+		margin-bottom: 10px;
+	}
+
+	.form input{
+		font-size: 12px;
+	}
+
+	.form p{
+		font-size: 15px;
+		padding: 8px;
+	}
+}

@@ -1,0 +1,122 @@
+.investorGuide {
+    overflow: hidden;
+    margin-top: 87px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.investorGuideHeading {
+    color: #a0ff00;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.investorGuideHeading h3 {
+    font-weight: 700;
+    font-size: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.investorGuideSubContainer {
+    width: 100%;
+    margin: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 7rem;
+}
+
+.investorGuideText {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    width: 50%;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 0.5rem;
+    flex-direction: column;
+    vertical-align: middle;
+    font-size: 1.2rem;
+}
+
+.investorGuideIllustration {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.investorGuideIllustration img {
+    width: 60%;
+    height: auto;
+}
+
+.investorGuidePara {
+    width: 33%;
+    padding-right: 2rem;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+.investorGuideSubHeading {
+    color: #a0ff00;
+    padding-top: 2rem;
+    padding-bottom: 0rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.investorGuideSubHeading h3 {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.investorGuideText ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+    .investorGuideIllustration img {
+        width: 80%;
+    }
+    .investorGuidePara{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .investorGuideText {
+        width: 100%;
+        order: 1;
+    }
+
+    .investorGuideIllustration {
+        width: 100%;
+        order: 0;
+        padding-bottom: 2rem;
+    }
+
+    .investorGuideIllustration img {
+        width: 60%;
+    }
+
+    .investorGuideSubContainer {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .investorGuideIllustration img {
+        width: 90%;
+    }
+}

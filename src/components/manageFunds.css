@@ -1,0 +1,232 @@
+.manageFunds {
+    overflow: hidden;
+    margin-top: 87px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.manageFundsHeading {
+    color: #A0ff00;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.manageFundsHeading h3 {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.manageFundsHeading h4 {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.manageFundsSubContainer {
+    width: 100%;
+    margin: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 7rem;
+}
+
+.mainImage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.mainImage img {
+    width: 50%;
+    height: auto;
+}
+
+.manageFundsText {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    width: 50%;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 0.5rem;
+    flex-direction: column;
+    vertical-align: middle;
+    font-size: 1.2rem;
+    padding-top: 2rem;
+}
+
+.manageFundsIllustration {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 2rem;
+}
+
+.manageFundsIllustration img {
+    width: 60%;
+    height: auto;
+}
+
+.bankDetailsTable {
+    width: 100%;
+    border: 3px solid #A0ff00;
+    margin-top: 2rem;
+}
+
+.bankDetailsTable th,
+td {
+    border: 3px solid #A0ff00;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.feeAndCommission {
+    display: flex;
+    justify-content: center;
+}
+
+.feeAndCommissionTable {
+    border: 3px solid #A0ff00;
+    margin-top: 2rem;
+    width: 50%;
+}
+
+.feeAndCommissionTable th,
+td {
+    border: 3px solid #A0ff00;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.listOfTaxesText {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+.listOfTaxes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.listOfTaxesTable {
+    border: 3px solid #A0ff00;
+    margin-top: 2rem;
+    width: 60%;
+}
+
+.listOfTaxesTable th,
+td {
+    border: 3px solid #A0ff00;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.manageFundsLink {
+    text-decoration: none;
+    color: #A0ff00;
+}
+
+.manageFundsLink:hover {
+    text-decoration: underline;
+    color: #A0ff00;
+}
+
+.manageFundsAccountBalance {
+    width: 95%;
+    margin-top: 0;
+    padding: 0;
+    display: inline;
+    padding-top: 2rem;
+}
+
+.manageFundsCourierCharges {
+    width: 40%;
+    margin-right: 2.5rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .manageFundsIllustration img {
+        width: 80%;
+    }
+
+    .mainImage img {
+        width: 80%;
+    }
+
+    .manageFundsTable {
+        overflow-x: scroll;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .manageFundsText {
+        width: 100%;
+        order: 1;
+    }
+
+    .manageFundsIllustration {
+        width: 100%;
+        order: 0;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+
+    .manageFundsTable{
+        order: 2;
+    }
+
+    .manageFundsIllustration img {
+        width: 60%;
+    }
+
+    .manageFundsSubContainer {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .mainImage img {
+        width: 60%;
+    }
+
+    .feeAndCommissionTable {
+        border: 3px solid #A0ff00;
+        margin-top: 2rem;
+        width: 100%;
+    }
+
+    .listOfTaxesTable {
+        border: 3px solid #A0ff00;
+        margin-top: 2rem;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .manageFundsIllustration img {
+        width: 90%;
+    }
+
+    .mainImage img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .feeAndCommissionTable th, td {
+        font-size: 0.8rem;
+    }
+
+    .listOfTaxesTable th, td {
+        font-size: 0.8rem;
+    }
+
+    .feeAndCommissionTable th, td {
+    font-size: 0.8rem;
+    }
+}

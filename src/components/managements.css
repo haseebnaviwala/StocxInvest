@@ -1,0 +1,158 @@
+.managements {
+  overflow: hidden;
+  margin-top: 87px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.managementsHeading {
+  color: #a0ff00;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.managementsHeading h3 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.managements_BOD {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 1rem;
+}
+
+.managements_company_section {
+  margin-top: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.managements_BOD h3 {
+  color: #a0ff00;
+}
+
+.managements_BOD ul {
+  margin-top: 20px;
+}
+
+.managements_BOD a {
+  text-decoration: none;
+  color: inherit;
+  transition: all .3s;
+}
+
+.managements_BOD a:hover {
+  color: grey;
+}
+
+.sponsors {
+  display: flex;
+  justify-content: center;
+}
+
+.managementsTable {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.managementsTable th,
+td {
+  border: 3px solid #a0ff00;
+  text-align: center;
+  font-size: 1.2rem;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.managementsSubContainer {
+  width: 100%;
+  margin: 0px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 7rem;
+}
+
+.managementsText {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  width: 50%;
+  margin: 0px;
+  padding: 0px;
+  padding-left: 0.5rem;
+  flex-direction: column;
+  vertical-align: middle;
+  font-size: 01rem;
+}
+
+.managementsText h4 {
+  color: #a0ff00;
+  font-weight: 700;
+}
+
+.managementsIllustration {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.managementsIllustration img {
+  width: 60%;
+  height: auto;
+  border: 5px solid #a0ff00;
+}
+
+@media only screen and (max-width: 1200px) {
+  .managementsIllustration img {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .managementsText {
+    width: 100%;
+    order: 1;
+  }
+
+  .managementsIllustration {
+    width: 100%;
+    order: 0;
+    padding-bottom: 2rem;
+  }
+
+  .managementsIllustration img {
+    width: 60%;
+  }
+
+  .managementsSubContainer {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .managementsIllustration img {
+    width: 90%;
+  }
+
+  .managements_company_section {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .managements_BOD {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
