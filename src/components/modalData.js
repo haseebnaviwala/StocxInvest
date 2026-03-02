@@ -20,6 +20,30 @@ export const modalData = {
   associated_companies: [
     { heading: "Details Of Associated Companies", description: ["Nil"] },
   ],
+  homepage_popup: [
+    {
+      heading: "⚠️ Beware of Fraudulent Schemes Misusing the Name of StocXinvest Securities Pvt Limited",
+      description: [
+        "Fraudulent individuals and entities may misuse the identity of StocXinvest Securities Pvt Limited or falsely impersonate its directors or executives to deceive the public through unauthorized communication channels, fake profiles, and misleading information.",
+        "We strongly advise our clients and the general public to exercise caution and remain vigilant against such scams.",
+        "Please note:",
+         "StocXinvest Securities Pvt Limited has no affiliation with any unofficial pages, profiles, apps, or WhatsApp numbers.",
+         "We never request OTPs, personal information, funds, or investments through unofficial platforms.",
+         "All communication from StocXinvest Securities Pvt Limited is conducted only through our official phone numbers, website, email, social media handles through official representatives.",
+         <br />,
+        "For your safety:",
+         "Always verify the authenticity of any communication before engaging.",
+         "Make sure that you are dealing with licensed entities and registered professionals by conducting research from the PSX and SECP websites.",
+         "Regularly visit SECP, PSX, CDC, and NCCPL websites for authentic updates.",
+         "Transact only through official banking channels linked to licensed brokers.",
+         "In case of any ambiguity it is recommended to contact and verify the information through our official representatives.",
+        "Official Channels:",
+          <p>Website: <a href="https://www.stocxinvest.com" target="_blank" rel="noreferrer">www.stocxinvest.com</a></p> ,
+        <p>Email: <a href="mailto:info@stocxinvest.com">info@stocxinvest.com</a></p>,
+        <p>Helpline: <a href="tel:03162288686">0316 2288686</a></p>,
+      ],
+    },
+  ],
   advisors: [
     {
       heading: "Statutory Auditors & Legal Advisor",

@@ -22,6 +22,8 @@ import ComingSoonPage from "./components/comingSoon";
 import Management from "./components/managements";
 import Complaint from "./components/complaint";
 import JamaPunji from "./components/jamaPunji";
+import Mod from "./components/modal";
+import { modalData } from "./components/modalData";
 
 function App() {
   useEffect(() => {
@@ -38,6 +40,7 @@ function App() {
   }, []);
 
   const [isToggled, setIsToggled] = useState(true);
+  const [showPopup, setShowPopup] = useState(true);
 
   const handleToggle = () => {
     setIsToggled(!isToggled);
@@ -70,6 +73,11 @@ function App() {
       <WhatsappIcon></WhatsappIcon>
       <ContactDetailsIcon></ContactDetailsIcon>
       <SidebarContact></SidebarContact>
+      <Mod
+        show={showPopup}
+        onHide={() => setShowPopup(false)}
+        data={modalData.homepage_popup[0]}
+      ></Mod>
       <Routes>
         <Route
           exact
