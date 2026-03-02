@@ -1,0 +1,154 @@
+.jamaPunji {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.jamaPunji_subContainer {
+  padding-left: 100px;
+  padding-right: 100px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jamaPunji_complain_img {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jamaPunji_complain_img img {
+  width: 90%;
+}
+
+.jamapunji_logo {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jamapunji_logo img {
+  width: 70%;
+}
+
+.cgp_button{
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cgp_button img {
+  width: 90%;
+}
+
+.cgp_banner{
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cgp_banner_img{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cgp_banner_img img{
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+@media only Screen and (max-width: 1200px) {
+  .jamaPunji_complain_img {
+    width: 40%;
+  }
+  .jamaPunji_complain_img img {
+    width: 100%;
+  }
+
+  .jamapunji_logo {
+    width: 30%;
+  }
+
+  .jamapunji_logo img {
+    width: 100%;
+  }
+
+  .cgp_button{
+    width: 30%;
+  }
+  
+  .cgp_button img {
+    width: 100%;
+  }
+}
+
+@media only Screen and (max-width: 1000px) {
+  .jamaPunji_subContainer {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .jamaPunji_complain_img {
+    width: 80%;
+  }
+
+  .jamapunji_logo {
+    padding-top: 3rem;
+    width: 80%;
+  }
+
+  .jamapunji_logo img {
+    width: 80%;
+  }
+
+  .cgp_button{
+    padding-top: 3rem;
+    width: 80%;
+  }
+  
+  .cgp_button img {
+    width: 100%;
+  }
+}
+
+@media only Screen and (max-width: 550px) {
+  .jamaPunji_complain_img {
+    width: 100%;
+  }
+
+  .jamaPunji_complain_img img {
+    width: 100%;
+  }
+
+  .jamapunji_logo {
+    width: 100%;
+  }
+
+  .jamapunji_logo img {
+    width: 100%;
+  }
+
+  .cgp_button{
+    width: 100%;
+  }
+  
+  .cgp_button img {
+    width: 100%;
+  }
+}

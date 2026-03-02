@@ -1,0 +1,87 @@
+.siteMap {
+    overflow: hidden;
+    margin-top: 87px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.siteMapHeading {
+    color: #A0ff00;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.siteMapHeading h3 {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.siteMapSubContainer {
+    width: 100%;
+    margin: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 7rem;
+    justify-content: center;
+}
+
+.siteMapListHeading {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.siteMapList-1 {
+    display: flex;
+    width: 33%;
+    font-size: 1.2rem;
+    justify-content: center;
+}
+
+.siteMapList-2 {
+    display: flex;
+    width: 33%;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.siteMapSubList {
+    list-style-type: disc;
+}
+
+.siteMapLinks {
+    text-decoration: none;
+    color: #a0ff00;
+}
+
+.siteMapLinks:hover {
+    text-decoration: underline;
+    color: #A0ff00;
+}
+
+.secondContainer{
+    padding-top: 3rem;
+}
+
+@media only screen and (max-width: 1300px) {
+    .siteMapSubContainer {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .siteMapList-1 {
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+    
+    .siteMapList-2 {
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+
+    .secondContainer{
+        padding-top: 0rem;
+    }
+}

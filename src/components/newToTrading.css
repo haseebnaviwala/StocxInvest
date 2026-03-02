@@ -1,0 +1,113 @@
+.newToTrading {
+    overflow: hidden;
+    margin-top: 87px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.newToTradingHeading {
+    color: #a0ff00;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.newToTradingHeading h3 {
+    font-weight: 700;
+    font-size: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.newToTradingSubContainer {
+    width: 100%;
+    margin: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 7rem;
+}
+
+.newToTradingText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    width: 50%;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 0.5rem;
+    flex-direction: column;
+    vertical-align: middle;
+    font-size: 1.2rem;
+}
+
+.newToTradingIllustration {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.newToTradingIllustration img {
+    width: 60%;
+    height: auto;
+}
+
+.newToTradingExtraText {
+    width: 100%;
+    margin: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 2rem;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .newToTradingIllustration img {
+        width: 80%;
+    }
+    .newToTradingExtraText{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .newToTradingText {
+        width: 100%;
+        order: 1;
+    }
+
+    .newToTradingIllustration {
+        width: 100%;
+        order: 0;
+        padding-bottom: 2rem;
+    }
+
+    .newToTradingIllustration img {
+        width: 60%;
+    }
+
+    .newToTradingSubContainer {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .newToTradingExtraText {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .newToTradingIllustration img {
+        width: 90%;
+    }
+
+    .newToTradingHeading h3 { 
+        font-size: 2rem;
+    }
+}

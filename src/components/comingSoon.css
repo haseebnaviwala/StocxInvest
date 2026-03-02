@@ -1,0 +1,9 @@
+@media only Screen and (max-width: 500px){
+    .comingsoonhead{
+        font-size: 25px !important;
+    }
+
+    .comingsoontext{
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,135 @@
+.accountdetails{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    margin-top: 87px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.accountdetailsunder{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
+    flex-direction: column;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    row-gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: black;
+}
+
+.accountdetailsundertext{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+
+.accountdetailsheading{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.accountdetailsheading h1{
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 700;
+    color: #a0ff00;
+}
+
+.accountdetailsheading h3{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 20px;
+    color: #a0ff00;
+}
+
+.accountdetailstext p{
+    font-size: 1.3rem;
+}
+
+.accountdetailsbutton{
+    background-color: #a0ff00;
+    border-radius: 2rem;
+    padding: 10px 25px;
+}
+
+.accountdetailsbutton a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+@media only Screen and (max-width: 1220px){
+    .accountdetailsundertext{
+        text-align: center;
+    }
+}
+
+@media only Screen and (max-width: 900px){
+    .accountdetailsunder{ 
+        width: 90%;  
+    }
+}
+
+@media only Screen and (max-width: 650px){
+    .accountdetailsunder{ 
+        width: 90%;  
+    }
+
+    .accountdetailsundertext{
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        text-align: center;
+    }
+}
+
+@media only Screen and (max-width: 470px){
+    .accountdetailsheading h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .accountdetailsbutton{
+        background-color: #a0ff00;
+        border-radius: 2rem;
+        padding: 10px 20px;
+    }
+    
+    .accountdetailsbutton a{
+        font-size: 1.1rem;
+        text-decoration: none;
+        color: black;
+    }
+}
+
+@media only Screen and (max-width: 340px){
+    .accountdetailsheading h1{
+        font-size: 1.7rem;
+    }
+
+    .accountdetailsbutton a{
+        font-size: 0.9rem;
+        text-decoration: none;
+        color: black;
+    }
+
+    .accountdetailstext p{
+        font-size: 1.1rem;
+    }
+}
